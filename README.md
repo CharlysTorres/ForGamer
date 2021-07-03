@@ -1,19 +1,19 @@
 <div align="center">
   <img src="assets/icon.png" width="150" />
-  <h1>PlantManager</h1>
-  <p>🎮 Application to remind people to water their plants 🎮</p>
-  <p>
+  <h1>ForGamer</h1>
+  <p>🎮 Application created to schedule matches of your favorite games together with your friends 🎮</p>
+  <!--<p>
     <img alt="GitHub top language" src="">
     <a href="https://www.linkedin.com/in/charlys-torres-67505a149/" target="_blank" rel="noopener noreferrer">
       <img alt="Made by" src="">
     </a>          
     <img alt="GitHub" src="">
-  </p>
+  </p>-->
 </div>
 
 # 👀 About
 
-Several places use plants, be it their home or business, and nowadays the human being is more and more busy, so he ends up forgetting to water his plants. Plantmanager came to solve this problem, with this application you will know when and how to water your plants !!
+With this application you can organize matches of your favorite games together with your friends using discord servers
 
 <div align="center">
   <img src="assets/cover.png" width="700" /> 
@@ -44,7 +44,7 @@ Several places use plants, be it their home or business, and nowadays the human 
 *Clone the project and access the folder*
 
 ```bash
-$ git clone https://github.com/charlystorres/
+$ git clone https://github.com/charlystorres/ForGamer
 $ cd ForGamer
 ```
 
@@ -53,15 +53,21 @@ $ cd ForGamer
 ```bash
 # Install the dependencies
 $ yarn install
-
+```
+```bash
 # Make a copy of '.env.example' to '.env'
 # and set with YOUR environment variables.
 $ cp .env.example .env
-
+```
+```bash
 # Finally, run the api service in a development environment :)
 $ yarn start
+```
+or
+```bash
+$ expo start
 
-# Well done, PlantManager is started!
+# Well done, ForGamer is started!
 ```
 <br>
 
